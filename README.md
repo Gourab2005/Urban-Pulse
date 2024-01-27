@@ -1,4 +1,4 @@
-# DISHA
+# Urban Pulse: Feeling the City, Fixing the Problems
 # Citizen-powered platform for sustainable cities and clean energy.
 
 
