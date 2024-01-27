@@ -26,4 +26,4 @@ Empowering communities to identify, report and track urban problems related to E
 
 - **Educational content:** Learn about sustainable city practices and clean energy solutions.
 
-- **Partnerships:** Collaborate with local authorities, NGOs, and businesses for effective action.
+- **Partnerships:** Collaborate with local authorities and businesses for effective action.
