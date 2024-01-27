@@ -1,4 +1,7 @@
 # DISHA
+# Citizen-powered platform for sustainable cities and clean energy.
+
+
 Empowering communities to identify, report and track urban problems related to Electricity, roads and water. Our interactive platform fosters collaboration for solutions and promotes sustainable City initiatives.
 
 - **Location-based navigation:** Report and browse problems by region, district, and state.
