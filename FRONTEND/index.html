@@ -7,114 +7,342 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urban Pulse: Feeling the City, Fixing the Problems</title>
     <link rel="icon" href="./Assets/Logo_Urban-Pulse.jpg">
+    <!-- linking CDN file for font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- linking CSS file -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<!-- navbar starts -->
-
-<!-- navbar ends -->
-
-<!-- Adding side menubar -->
-
 <body>
-    <div class="wrapper">
-        <aside id="sidebar">
-            <div class="d-flex">
-                <button class="toggle-btn" type="button">
-                    <i class="lni lni-grid-alt"></i>
-                </button>
-                <div class="sidebar-logo">
-                    <a href="#">Urban Pulse</a>
-                </div>
+
+    <!-- header section start -->
+
+    <header class="header">
+
+        <a href="#" class="logo"></i>Urban Pulse</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#servicess">Services</a>
+            <a href="#about">About</a>
+            <a href="#doctors">doctors</a>
+            <a href="#book">Book appointnment</a>
+            <a href="#review">review</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- header section ends -->
+
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <div class="image">
+            <img src="images/picture1.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Stay safe, Stay Healthy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tempora nihil, quo distinctio corrupti
+                cupiditate expedita recusandae architecto eveniet obcaecati ducimus maiores inventore enim dolorem animi
+                commodi veritatis nulla? Cupiditate?</p>
+            <a href="" class="btn"> Contact us<span class="fas fa-hevron-right">></span></a>
+        </div>
+    </section>
+
+    <!-- home setion ends -->
+
+    <!-- icon section start -->
+    <section class="icon-container">
+
+        <div class="icons">
+            <i class="fas fa-user-md"></i>
+            <h3>100+</h3>
+            <p>doctors of 50+ category at work</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-user"></i>
+            <h3>7000+</h3>
+            <p>Satisfied patients</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-procedures"></i>
+            <h3>500+</h3>
+            <p>bed facility</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-hospital"></i>
+            <h3>80+</h3>
+            <p>available hospitals</p>
+        </div>
+    </section>
+
+    <!-- Services section starts -->
+    <section class="services" id="servicess">
+        <h1 class="heading">our <span>services</span></h1>
+        <div class="boxcontainer">
+            <div class="box">
+                <i class="fas fa-notes-medical"></i>
+                <h3>free checkups</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam magnam nisi amet aliquid deserunt
+                    deleniti nam repellat expedita ex. Temporibus earum, laboriosam incidunt aliquam illum assumenda
+                    amet dolores minima.</p>
+                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
             </div>
-            <ul class="sidebar-nav">
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-user"></i>
-                        <span>Profile</span>
-                    </a>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-agenda"></i>
-                        <span>Task</span>
-                    </a>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
-                        data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
-                        <i class="lni lni-protection"></i>
-                        <span>Auth</span>
-                    </a>
-                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">Login</a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">Register</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
-                        data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
-                        <i class="lni lni-layout"></i>
-                        <span>Multi Level</span>
-                    </a>
-                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-                        <li class="sidebar-item">
-                            <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse"
-                                data-bs-target="#multi-two" aria-expanded="false" aria-controls="multi-two">
-                                Two Links
-                            </a>
-                            <ul id="multi-two" class="sidebar-dropdown list-unstyled collapse">
-                                <li class="sidebar-item">
-                                    <a href="#" class="sidebar-link">Link 1</a>
-                                </li>
-                                <li class="sidebar-item">
-                                    <a href="#" class="sidebar-link">Link 2</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-popup"></i>
-                        <span>Notification</span>
-                    </a>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="lni lni-cog"></i>
-                        <span>Setting</span>
-                    </a>
-                </li>
-            </ul>
-            <div class="sidebar-footer">
-                <a href="#" class="sidebar-link">
-                    <i class="lni lni-exit"></i>
-                    <span>Logout</span>
-                </a>
+
+            <div class="box">
+                <i class="fas fa-ambulance"></i>
+                <h3>24/7 ambulance</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam magnam nisi amet aliquid deserunt
+                    deleniti nam repellat expedita ex. Temporibus earum, laboriosam incidunt aliquam illum assumenda
+                    amet dolores minima.</p>
+                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
             </div>
-        </aside>
-        <div class="main p-3">
-            <div class="text-center">
-                <h1>
-                    <!-- Website under construction -->
-                </h1>
+
+
+            <div class="box">
+                <i class="fas fa-user-md"></i>
+                <h3>expert doctors</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam magnam nisi amet aliquid deserunt
+                    deleniti nam repellat expedita ex. Temporibus earum, laboriosam incidunt aliquam illum assumenda
+                    amet dolores minima.</p>
+                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-pills"></i>
+                <h3>medicines</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam magnam nisi amet aliquid deserunt
+                    deleniti nam repellat expedita ex. Temporibus earum, laboriosam incidunt aliquam illum assumenda
+                    amet dolores minima.</p>
+                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-procedures"></i>
+                <h3>bed facility</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam magnam nisi amet aliquid deserunt
+                    deleniti nam repellat expedita ex. Temporibus earum, laboriosam incidunt aliquam illum assumenda
+                    amet dolores minima.</p>
+                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-heartbeat"></i>
+                <h3>total care</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam magnam nisi amet aliquid deserunt
+                    deleniti nam repellat expedita ex. Temporibus earum, laboriosam incidunt aliquam illum assumenda
+                    amet dolores minima.</p>
+                <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- Services section ends -->
 
-    <!-- side menubar ends -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-    <script src="scripts/script1.js"></script>
+    <!-- About setion starts -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> us </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/picture2.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>we take care of your Healthy life</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio ut fugit dolores amet aliquid quam,
+                    ea unde expedita tempora, quidem fuga vero cum quo, distinctio in exercitationem pariatur hic.
+                    Cupiditate.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem eius quas modi atque esse et
+                    ipsum exercitationem nostrum, velit neque repudiandae cum excepturi beatae in voluptates voluptatem
+                    voluptas nam?</p>
+                <a href="#" class="btn">show more <span class="fas fa-chevron-right"></span></a>
+            </div>
+        </div>
+    </section>
+    <!-- About setion ends -->
+
+    <!-- doctor section starts -->
+    <section class="doctors" id="doctors">
+        <h1 class="heading"><span>our</span> Top <span>doctors</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/doctorprofilepicture.png" alt="">
+                <h3>Dr.Pal</h3>
+                <span>Cardiologist</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fa fa-envelope"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/doctorprofilepicture.png" alt="">
+                <h3>Dr.Mukhopadhaya</h3>
+                <span>Dentist</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fa fa-envelope"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/doctorprofilepicture.png" alt="">
+                <h3>Dr.Chakraborty</h3>
+                <span>Neurologist</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fa fa-envelope"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/doctorprofilepicture.png" alt="">
+                <h3>Dr.Bhattachariya</h3>
+                <span>Cardiothoracic Surgeon</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fa fa-envelope"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/doctorprofilepicture.png" alt="">
+                <h3>Dr.Roy</h3>
+                <span>ENT Specialists</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fa fa-envelope"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- doctor section ends -->
+
+
+    <!-- booking setion starts -->
+    <section class="book" id="book">
+
+        <h1 class="heading"><span>book</span>now</h1>
+
+        <div class="row">
+
+            <form action="">
+                <h3>book appointnment</h3>
+                <input type="text" placeholder="your name" class="box">
+                <input type="number" placeholder="your mobile number" class="box">
+                <input type="email" placeholder="your email" class="box">
+                <input type="date" class="box">
+                <input type="submit" value="book now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+    <!-- booking setion ends -->
+
+    <!-- review section starts -->
+
+    <section class="review" id="review">
+        <h1 class="heading"> client's <span>review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/client.png" alt="">
+                <h3>Mohan Singh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit culpa sunt odio aperiam ipsam repellat iure omnis corrupti cupiditate? Esse hic, ut facere recusandae ea obcaecati eveniet quisquam eum a!</p>
+            </div>
+            <div class="box">
+                <img src="images/client2.avif" alt="">
+                <h3>Mohan Singh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit culpa sunt odio aperiam ipsam repellat iure omnis corrupti cupiditate? Esse hic, ut facere recusandae ea obcaecati eveniet quisquam eum a!</p>
+            </div>
+            <div class="box">
+                <img src="images/client3.jpg" alt="">
+                <h3>Mohan Singh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit culpa sunt odio aperiam ipsam repellat iure omnis corrupti cupiditate? Esse hic, ut facere recusandae ea obcaecati eveniet quisquam eum a!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- footer section starts -->
+
+    <secion class="footer" >
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas"></i>home</a>
+                <a href="#servicess"><i class="fas"></i>services</a>
+                <a href="#about"><i class="fas"></i>about</a>
+                <a href="#doctors"><i class="fas"></i>doctors</a>
+                <a href="#review"><i class="fas"></i>review</a>
+                <a href="#book"><i class="fas"></i>appointnment</a>
+            </div>
+            <div class="box">
+                <h3>our services</h3>
+                <a href="#"><i class="fas"></i>Cardiological</a>
+                <a href="#"><i class="fas"></i>Neurological</a>
+                <a href="#"><i class="fas"></i>dental care</a>
+                <a href="#"><i class="fas"></i>diagnosis</a>
+                <a href="#"><i class="fas"></i>ambulance services</a>
+            </div>
+            <div class="box" id="Contact">
+                <h3>Contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +123-456-7891</a>
+                <a href="#"><i class="fas fa-phone"></i> +234-233-7777</a>
+                <a href="#"><i class="fas fa-envelope"></i> example1@gmail.com</a>
+                <a href="#"><i class="fas fa-envelope"></i> example1@gmail.com</a>
+                <a href="#"><i class="fas fa-map-market-alt"></i> Berhampore, india -742101 </a>
+            </div>
+            <div class="box">
+                <h3>Our social media handles</h3>
+                <a href="#"><i class="fab fa-facebook"></i> facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+            </div>
+        </div>
+    </secion>
+
+    <!-- footer section ends -->
+    <!-- linking js file  -->
+    <script src="script1.js"></script>
 </body>
 
 </html>

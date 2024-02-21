@@ -1,5 +1,12 @@
-const hamBurger = document.querySelector(".toggle-btn");
+let menu = document.querySelector('#menu-btn');
+let navbar = document.querySelector('.navbar');
 
-hamBurger.addEventListener("click", function () {
-  document.querySelector("#sidebar").classList.toggle("expand");
-});
+menu.onclick =()=>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+}
+
+window.onscroll = ()=>{
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
+}
