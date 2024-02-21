@@ -47,7 +47,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:rgb(29, 28, 28);
+    background:rgb(0, 0, 0);
 }
 .heading{
     text-align: center;
