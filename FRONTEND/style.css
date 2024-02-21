@@ -33,6 +33,9 @@ html{
 .bgcol{
     background-color: rgb(238, 16, 16);
 }
+.titcoleven{
+    color: #000000 !important;
+}
 .header{
     padding: 2rem 9%;
     position: fixed;
@@ -154,7 +157,7 @@ section{
 
 /* /////////////////////////////////////////// */
 section.home{
-    background-image: url('../Assets/background-image-1.webp');
+    background-image: url('Assets/background-image-1.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
