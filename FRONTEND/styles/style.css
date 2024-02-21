@@ -4,10 +4,10 @@
 :root{
     --green:#16a085;
     --black:#282727;
-    --color1:rgb(32, 225, 11);
-    --color2:rgb(255, 136, 0);
+    --color1:rgb(255, 255, 255);
+    --color2:rgb(255, 255, 255);
     --blue: #000000;
-    --light-color:#c7c5c5;
+    --light-color:#ffffff;
     --box-shadow: .5rem .5rem  rgba(0, 0, 0, 0.795);
     --text-shadow: .4rem .4rem 0 rgba(0,0,0, .2);
     --border:.2rem solid var(var(--green));
@@ -30,7 +30,9 @@ html{
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
-
+.bgcol{
+    background-color: rgb(238, 16, 16);
+}
 .header{
     padding: 2rem 9%;
     position: fixed;
@@ -42,7 +44,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #000000;
+    background:rgb(251, 14, 14);
 }
 .heading{
     text-align: center;
@@ -448,7 +450,4 @@ section.home::before{
 .footer .box-container .box a i{
     padding-right: .5rem;
     color: var(--blue);    
-}
-.bgcol{
-    background-color: #373636;
 }
