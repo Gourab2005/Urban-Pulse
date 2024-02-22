@@ -31,7 +31,7 @@ html{
     scroll-behavior: smooth;
 }
 .bgcol{
-    background-color: rgb(30, 29, 29);
+    background-color: rgb(25, 22, 22);
 }
 .titcoleven{
     color: #1c1b1b !important;
@@ -317,6 +317,9 @@ section.home::before{
   box-shadow: var(--box-shadow);
   border: var(--border);
   padding: 2.5rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+    text-align: center;   
 }
 .services .boxcontainer .box i{
     color: var(--blue);
@@ -331,8 +334,19 @@ section.home::before{
 .services .boxcontainer .box p{
     color: var(--light-color);
     font-size: 1.5rem;
-    padding: 2rem;
+    padding-top: 2rem;
+    text-align: justify;
 }
+.services .boxcontainer .box button{
+    padding: 1rem 4rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+
+}
+
+
 .about .row{
     display: flex;
     align-items: center;
@@ -366,7 +380,8 @@ section.home::before{
 .doctors .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap: 2rem;
+    gap: 5rem;
+    padding-top: 3rem;
 }
 .doctors .box-container .box {
     text-align: center;
@@ -374,18 +389,20 @@ section.home::before{
     border-radius: .5rem;
     border: var(--border);
     box-shadow: var(--box-shadow);
-    padding: 2rem;
+    padding: 0rem 2rem;
 }
 .doctors .box-container .box img{
     width: 100%;
+    height: 50%;
     border: var(--border);
     border-radius: 50%;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 6rem;
 }
 .doctors .box-container .box h3{
     color: var(--black);
     font-size: 2rem;
+    
 }
 .doctors .box-container .box span{
     color: var(--blue);
