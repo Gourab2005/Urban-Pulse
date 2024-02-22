@@ -377,7 +377,6 @@ section.home::before{
     padding: 2rem;
 }
 .doctors .box-container .box img{
-    height: 25rem;
     width: 100%;
     border: var(--border);
     border-radius: 50%;
