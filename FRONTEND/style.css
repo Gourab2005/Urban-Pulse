@@ -425,14 +425,13 @@ section.home::before{
     box-shadow: var(--box-shadow);
 }
 /* designing form */
-.book .row {
+.book row{
     display:flex ;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
 }
 .book .row form{
-    flex: 1 1 45rem;
     background:#fff;
     border: var(--border);
     box-shadow: var(--box-shadow);
@@ -444,10 +443,10 @@ section.home::before{
 .book .row form h3{
     color: var(--black);
     padding-bottom: 1rem;
-    font-size: 3rem;
+    font-size: 6rem;
 }
 .book .row form .box{
-    width: 100%;
+    width: 58%;
     margin: .7rem 0;
     border-radius: .5rem;
     border: var(--border);
@@ -455,11 +454,23 @@ section.home::before{
     color: var(--black);
     text-transform: none;
     padding: 1rem;
-    border: 1px solid var(--blue);
+    border: black 2px solid;
+
 }
 .book .row form .btn{
     padding: 1rem 4rem;                     
 }
+
+.book .row form #description{
+    border: black 2px solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+
 /* designing review part */
 .review .box-container{
     display: grid;
