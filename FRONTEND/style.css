@@ -425,11 +425,14 @@ section.home::before{
     box-shadow: var(--box-shadow);
 }
 /* designing form */
-.book row{
+.book .row{
     display:flex ;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
 }
 .book .row form{
     background:#fff;
