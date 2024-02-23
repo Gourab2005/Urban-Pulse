@@ -70,7 +70,7 @@ html{
     letter-spacing: .4rem;
     border-radius: 20px;
     margin: auto;
-    padding-top: 3%;
+    /* padding-top: 3%; */
     display: block;
 }
 .heading span{
