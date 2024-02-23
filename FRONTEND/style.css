@@ -495,7 +495,7 @@ section.home::before{
     border-radius: 50%;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    border: 5px solid rgb(0, 213, 255);
+    border: 5px solid rgb(245, 145, 14);
 }
 .doctors .box-container .box h3{
     color: var(--black);
@@ -507,7 +507,7 @@ section.home::before{
     font-size: 1.5rem;
 }
 .doctors .box-container .box .share{
-    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 .doctors .box-container .box .share a { 
     height: 5rem;
