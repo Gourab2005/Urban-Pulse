@@ -469,6 +469,33 @@ section.home::before{
     line-height: 1.8;
 }
 
+.faq .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+.faq .box-container .box p{
+    color: var(--black);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.faq .box-container .box .question{
+    color: var(--blue);
+    font-size: 2rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.faq .box-container .box .answer{
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+
 /* designing doctors part */
 .doctors .box-container{
     display: grid;
@@ -573,7 +600,7 @@ section.home::before{
 }
 
 /* designing review part */
-.review .box-container{
+/* .review .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap: 2rem;
@@ -596,7 +623,7 @@ section.home::before{
     object-fit: cover;
     border: .5rem solid #fff;
 
-}
+} */
 /* designing footer */
 .footer .box-container{
     display: grid;
