@@ -121,7 +121,6 @@ html{
 }
 .companybanner{
    background-color: #B6BBC4;
-   border-top: 2px sodid white;
 }
 .companybanner img{
     width: 5%;
@@ -405,7 +404,7 @@ section.home::before{
 }
 
 .services .boxcontainer .box {
-  background: slategrey;
+  background: #232D3F;
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
   border: var(--border);
@@ -439,6 +438,7 @@ section.home::before{
 }
 .para{
     height: 40rem;
+    margin-bottom: 3rem;
 }
 .about .row{
     display: flex;
@@ -652,12 +652,6 @@ section.home::before{
 .footcol{
     background-color:#000000;
 }
-.faq .box-container .box{
-    display: inline-block;
-    border: 2px solid white;
-    padding: 2rem;
-    border-radius:3rem;
-    background-color:#B6BBC4 ;
-}
+
 
 
