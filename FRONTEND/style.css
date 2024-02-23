@@ -92,7 +92,12 @@ html{
     cursor: pointer;
     display: none;
 }
-
+.form1{
+    height: 40vh;
+    width: 70vw;
+    padding: 2rem;
+    
+}
 /* media queries */
 @media(max-width:991px){
     html{
@@ -139,7 +144,6 @@ html{
         color: var(--black);
         margin-left: 2rem;
     }
-    
 }
 @media(max-width:450px){
     html{
@@ -386,19 +390,22 @@ section.home::before{
 }
 .doctors .box-container .box {
     text-align: center;
-    background: #fff;
+    background: #eae7e7;
     border-radius: .5rem;
     border: var(--border);
     box-shadow: var(--box-shadow);
     padding: 0rem 2rem;
+    border: 2px solid;
 }
 .doctors .box-container .box img{
-    width: 100%;
-    height: 50%;
+    width: 80%;
+    padding-top: 0rem;
+    /* height: 50%; */
     border: var(--border);
     border-radius: 50%;
-    margin-top: 1rem;
-    margin-bottom: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 5px solid rgb(0, 213, 255);
 }
 .doctors .box-container .box h3{
     color: var(--black);
@@ -529,4 +536,5 @@ section.home::before{
 .footcol{
     background-color:#000000;
 }
+
 
