@@ -315,11 +315,11 @@ section.home::before{
     /* border: 2px solid rgb(255, 255, 255); */
     border-radius: 15rem;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
 }
 .btnhome:hover{
     color: white;
-    background-color: #201f1f;
+    background-color: #161A30;
 }
 .btn span{
     padding: .7rem 1rem;
@@ -476,7 +476,7 @@ section.home::before{
 }
 .doctors .box-container .box {
     text-align: center;
-    background: #eae7e7;
+    background: #F0ECE5;
     border-radius: .5rem;
     border: var(--border);
     box-shadow: var(--box-shadow);
@@ -529,7 +529,7 @@ section.home::before{
     
 }
 .book .row form{
-    background:#fff;
+    background:#F0ECE5;
     border: var(--border);
     box-shadow: var(--box-shadow);
     text-align: justify;
