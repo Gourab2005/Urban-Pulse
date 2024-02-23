@@ -109,6 +109,18 @@ html{
     padding: 2rem;
 
 }
+.companybanner{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    background-color: #d40606;
+    
+}
+.companybanner img{
+    width: 5%;
+    margin-left: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 2em;
+}
 /* media queries */
 @media(max-width:991px){
     html{
