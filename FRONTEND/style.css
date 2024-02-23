@@ -519,7 +519,7 @@ section.home::before{
     border-radius: 50%;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    border: 5px solid rgb(245, 145, 14);
+    border: 5px solid rgb(114, 92, 237);
 }
 .doctors .box-container .box h3{
     color: var(--black);
