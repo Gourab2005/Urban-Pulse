@@ -471,7 +471,7 @@ section.home::before{
 .faq .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap: 2rem;
+    gap: 10rem;
     padding-top: 3rem;
 }
 
@@ -652,6 +652,10 @@ section.home::before{
 .footcol{
     background-color:#000000;
 }
-
-
-
+.faq .box-container .box{
+    display: inline-block;
+    border: 2px solid white;
+    padding: 4rem 4rem;
+    border-radius:3rem;
+    background-color:#B6BBC4;
+}
