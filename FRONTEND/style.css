@@ -68,7 +68,6 @@ html{
     color: var(--color1);
     font-size: 5rem;
     letter-spacing: .4rem;
-   
     border-radius: 20px;
     margin: auto;
     padding-top: 3%;
@@ -88,10 +87,21 @@ html{
 .header .navbar a{
     font-size: 1.7rem;
     color: var(--light-color);
-    margin-left: 2rem;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    /* padding: 1rem; */
+    /* margin: 0.5rem; */
+    padding: 0.1rem 1rem;
+    border: 2px solid black;
+    margin: 0rem 1rem;
 }
 .header .navbar a:hover{
     color: var(--blue);
+    background-color: #eae7e7;
+    /* margin: 0.5rem; */
+    /* border: 1px solid red; */
+    border-radius:0.5rem;
+    border: 2px solid rgb(255, 255, 255);
 }
 /* designing navicon */
 #menu-btn{
@@ -167,6 +177,12 @@ html{
         color: var(--black);
         margin-left: 2rem;
     }
+    .btnhome{
+        width:11rem !important ;
+    }
+    .companybanner img {
+        width: 20%;
+    }
 }
 @media(max-width:450px){
     html{
@@ -196,11 +212,19 @@ html{
     .home .image img {
         width: 99% !important;
     }
-
+    .home .content {
+        flex: 1 1 45rem;
+        position: relative;
+        margin-left: 0rem !important;
+    }
+    .btnhome{
+        width:13rem !important ;
+    }
 }
+
 /* designing home part */
 section{
-    padding: 2rem 9%;
+    padding: 5rem 9%;
 }
 .home{
     display: flex;
@@ -240,6 +264,7 @@ section.home::before{
 .home .content{
     flex: 1 1 45rem;
     position: relative;
+    margin-left: 30rem;
 
 }
 /* designing the text */
@@ -274,7 +299,7 @@ section.home::before{
 .btnhome{
     display: inline-block;
     margin-top: 0%;
-    margin-left: 30%;
+    margin-left: 10%;
     padding: 1rem;
     /* padding-left: 1rem; */
     border: 1px solid rgb(44, 43, 43);
@@ -285,6 +310,13 @@ section.home::before{
     font-size: 1.7rem;
     background-color: #f6f4f4;
     /* text-align: center; */
+    width: 15rem;
+    text-align: center;
+    border: 2px solid rgb(243, 14, 14);
+}
+.btnhome:hover{
+    color: white;
+    background-color: #2f2e2e;
 }
 .btn span{
     padding: .7rem 1rem;
