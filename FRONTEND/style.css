@@ -30,6 +30,17 @@ html{
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(3px);
+    transform: translateY(-80%);
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
 .bgcol{
     background-color: rgb(25, 22, 22);
 }
@@ -96,7 +107,7 @@ html{
     height: 40vh;
     width: 70vw;
     padding: 2rem;
-    
+
 }
 /* media queries */
 @media(max-width:991px){
@@ -222,9 +233,9 @@ section.home::before{
 .btn{
     display: inline-block;
     margin-top: 0%;
-    margin-left: 30%;
+    /* margin-left: 30%; */
     padding: 1rem;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     border: 1px solid rgb(44, 43, 43);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -232,6 +243,22 @@ section.home::before{
     cursor: pointer;
     font-size: 1.7rem;
     background-color: #f6f4f4;
+    /* text-align: center; */
+}
+.btnhome{
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 30%;
+    padding: 1rem;
+    /* padding-left: 1rem; */
+    border: 1px solid rgb(44, 43, 43);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--blue);
+    cursor: pointer;
+    font-size: 1.7rem;
+    background-color: #f6f4f4;
+    /* text-align: center; */
 }
 .btn span{
     padding: .7rem 1rem;

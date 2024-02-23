@@ -24,7 +24,7 @@
 
     <header class="header">
 
-        <a href="#" class="logo">Urban Pulse</a>
+        <a href="#" class="logo"><i class="fa-solid fa-u fa-flip" style="color: #ffffff;"></i> rban Pulse</a>
 
         <nav class="navbar">
             <a href="#home">home</a>
@@ -47,7 +47,7 @@
 
     <section class="home" id="home" >
     
-        <div class="image">
+        <div class="image hidden">
             <img src="Assets/pagettl.png" alt="">
         </div>
         
@@ -55,14 +55,14 @@
             <!-- <h3>Urban Pulse: Feeling the City, Fixing the Problems</h3>
             <p>
                 Citizen-powered platform for sustainable cities and clean energy.</p> -->
-            <a href="#" class="btn"> Login/Register<span class="fas fa-hevron-right">></span></a>
+            <a href="#" class="btnhome hidden "> Login/Register<span class="fas fa-hevron-right">></span></a>
         </div>
     </section>
 
     <!-- home setion ends -->
     
     <!-- icon section start -->
-    <section class="icon-container ">
+    <section class="icon-container hidden">
 
         <div class="icons">
             <i class="fa-solid fa-user" style="color: #000000;"></i>
@@ -90,10 +90,10 @@
     </section>
 
     <!-- Services section starts -->
-    <section class="services bgcol" id="servicess">
+    <section class="services bgcol " id="servicess">
         <h1 class="heading">our <span>services</span></h1>
         <div class="boxcontainer">
-            <div class="box">
+            <div class="box hidden">
                 <div class="services-box e-box">
                     <i class="fa-solid fa-bolt-lightning"></i>
                     <h1>Electricity</h1>
@@ -102,7 +102,7 @@
                 <button class="btn">Register Issue</button>
             </div>
 
-            <div class="box">
+            <div class="box hidden">
                 <div class="services-box w-box">
                     <i class="fa-solid fa-faucet-drip"></i>
                     <h1>Water</h1>
@@ -112,7 +112,7 @@
             </div>
 
 
-            <div class="box">
+            <div class="box hidden">
                 <div class="services-box r-box">
                     <i class="fa-solid fa-road"></i>
                     <h1>Roadways</h1>
@@ -131,7 +131,7 @@
         <h1 class="heading titcoleven"> Team Members </span></h1>
 
         <div class="box-container">
-            <div class="box">
+            <div class="box hidden">
                 <img src="Assets/Jahir.jpg" alt="">
                 <h3>Md.Jahiruddin</h3>
                 <span>Programmer and captain</span>
@@ -140,7 +140,7 @@
                     <a href="newmyself.jahir@gmail.com" class="fa fa-envelope"></a>
                 </div>
             </div>
-            <div class="box">
+            <div class="box hidden">
                 <img src="Assets/Priyanka.jpg" alt="">
                 <h3>Priyanka Singh</h3>
                 <span>Web Designer and Frontend developer</span>
@@ -149,7 +149,7 @@
                     <a href="personaluse.priyanka@gmail.com" class="fa fa-envelope"></a>
                 </div>
             </div>
-            <div class="box">
+            <div class="box hidden">
                 <img src="Assets/Rahul.png" alt="">
                 <h3>Rahul Khandait</h3>
                 <span>Backend and Frontend developer</span>
@@ -158,7 +158,7 @@
                     <a href="rahulkhandait84206@gmail.com" class="fa fa-envelope"></a>
                 </div>
             </div>
-            <div class="box">
+            <div class="box hidden">
                 <img src="Assets/Gourab.jpg" alt="">
                 <h3>Gourab Das</h3>
                 <span>Designer(web, logo) and Frontend-developer</span>
@@ -194,7 +194,7 @@
     <!-- About setion ends -->
 
     <!-- booking setion starts -->
-    <section class="book bgcol" id="book">
+    <section class="book bgcol hidden" id="book">
 
         <!-- <h1 class="heading titcoleven"><span class="titcoleven">book</span>now</h1> -->
 
@@ -202,12 +202,12 @@
 
             <form action="">
                 <h3>Write Your Problem</h3>
-                <input type="text" placeholder="your name" class="box">
-                <input type="number" placeholder="your mobile number" class="box">
-                <input type="email" placeholder="your email" class="box">
-                <input type="date" class="box">
-                <textarea name="description" class="form1" id="description"  placeholder="briefly descripe your problem here"></textarea>
-                <button class="btn">Submit Issue</button>
+                <input type="text" placeholder="your name" class="box hidden">
+                <input type="number" placeholder="your mobile number" class="box hidden">
+                <input type="email" placeholder="your email" class="box hidden">
+                <input type="date" class="box hidden">
+                <textarea name="description" class="form1 hidden" id="description"  placeholder="briefly descripe your problem here"></textarea>
+                <button class="btn hidden">Submit Issue</button>
             </form>
 
         </div>
@@ -243,6 +243,7 @@
     <!-- footer section ends -->
     <!-- linking js file  -->
     <script src="scripts/script1.js"></script>
+    <script src="scripts/entry.js"></script>
 </body>
 
 </html>
