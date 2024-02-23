@@ -42,10 +42,10 @@ html{
     transform: translateX(0);
 }
 .bgcol{
-    background-color: rgb(25, 22, 22);
+    background-color: #161A30;
 }
 .titcoleven{
-    color: #1c1b1b !important;
+    color: #ffffff !important;
 }
 .header{
     padding: 2rem 9%;
@@ -58,7 +58,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:rgb(0, 0, 0);
+    background:#161A30;
 }
 .heading{
     text-align: center;
@@ -92,7 +92,7 @@ html{
     /* padding: 1rem; */
     /* margin: 0.5rem; */
     padding: 0.1rem 1rem;
-    border: 2px solid black;
+    border: 2px solid #161A30;
     margin: 0rem 1rem;
 }
 .header .navbar a:hover{
@@ -120,10 +120,7 @@ html{
 
 }
 .companybanner{
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    background-color: #d40606;
-    
+   background-color: #B6BBC4;
 }
 .companybanner img{
     width: 5%;
@@ -225,6 +222,7 @@ html{
 /* designing home part */
 section{
     padding: 5rem 9%;
+    background: #31304D;
 }
 .home{
     display: flex;
@@ -347,7 +345,7 @@ section.home::before{
     padding-bottom: 5rem;
 }
 .icon-container .icons{
-    background: #fff;
+    background: #B6BBC4;
 
 }
 /* section:nth-child(even){
