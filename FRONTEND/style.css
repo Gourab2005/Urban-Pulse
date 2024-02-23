@@ -471,7 +471,7 @@ section.home::before{
 .faq .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap: 10rem;
+    gap: 15rem;
     padding-top: 3rem;
 }
 
