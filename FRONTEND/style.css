@@ -121,6 +121,7 @@ html{
 }
 .companybanner{
    background-color: #B6BBC4;
+   border-top: 2px sodid white;
 }
 .companybanner img{
     width: 5%;
@@ -651,6 +652,12 @@ section.home::before{
 .footcol{
     background-color:#000000;
 }
-
+.faq .box-container .box{
+    display: inline-block;
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius:3rem;
+    background-color:#B6BBC4 ;
+}
 
 
