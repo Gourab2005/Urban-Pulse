@@ -338,7 +338,6 @@ section.home::before{
     color:var(--blue);
     background-color: #f6f4f4;
 }
-
 /* designing icon-container */
 .icon-container{
     display: grid;
