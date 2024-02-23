@@ -170,6 +170,20 @@ html{
         display: block;
         border: 1px solid;
     }
+    .home{
+        height: 50vh !important;
+    }
+    section.home::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50vh !important;
+        background-color: rgba(0, 0, 0, 0.739);
+    }
+    .home .image img {
+        width: 99% !important;
+    }
 
 }
 /* designing home part */
