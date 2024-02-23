@@ -434,19 +434,15 @@ section.home::before{
 .services .boxcontainer .box button{
     padding: 1rem 4rem;
     border-radius: .5rem;
-    margin-top: 2rem;
+    margin-bottom: 0rem !important;
     font-size: 1.7rem;
     cursor: pointer;
-
 }
-
-
 .about .row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-
 }
 .about .row .image{
     flex: 1 1 45rem;
@@ -627,5 +623,6 @@ section.home::before{
 .footcol{
     background-color:#000000;
 }
+
 
 
