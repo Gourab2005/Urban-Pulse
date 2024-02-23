@@ -121,7 +121,6 @@ html{
 }
 .companybanner{
    background-color: #B6BBC4;
-   border-top: 2px sodid white;
 }
 .companybanner img{
     width: 5%;
@@ -384,9 +383,9 @@ section.home::before{
 /* services box div */
 .services .boxcontainer .box .services-box {
   border-radius: 0.5rem;
-  /* box-shadow: var(--box-shadow); */
+  box-shadow: var(--box-shadow);
   border: var(--border);
-  padding: 2.5rem;
+  padding: 5rem;
   text-align: center;
   font-weight: bold;
 }
@@ -405,14 +404,14 @@ section.home::before{
 }
 
 .services .boxcontainer .box {
-  background: slategrey;
+  background: #232D3F;
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
   border: var(--border);
   padding: 2.5rem;
   margin-bottom: 5rem;
   margin-top: 2rem;
-    text-align: center;   
+  text-align: center;   
 }
 .services .boxcontainer .box i{
     color: var(--blue);
@@ -439,6 +438,7 @@ section.home::before{
 }
 .para{
     height: 40rem;
+    margin-bottom: 3rem;
 }
 .about .row{
     display: flex;
@@ -652,6 +652,7 @@ section.home::before{
 .footcol{
     background-color:#000000;
 }
+<<<<<<< HEAD
 .faq .box-container .box{
     display: inline-block;
     border: 2px solid white;
@@ -659,5 +660,8 @@ section.home::before{
     border-radius:3rem;
     background-color:#B6BBC4;
 }
+=======
+
+>>>>>>> f13cac095962f47839b59afd04504cebb02977d0
 
 
