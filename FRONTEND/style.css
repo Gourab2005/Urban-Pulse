@@ -19,7 +19,7 @@
     box-sizing: border-box;
     outline: none;
     border: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s ease-out;
     text-decoration: none !important;
 
@@ -105,7 +105,7 @@ html{
 }
 .form1{
     height: 40vh;
-    width: 70vw;
+    width: 100%;
     padding: 2rem;
 
 }
@@ -487,7 +487,7 @@ section.home::before{
     background:#fff;
     border: var(--border);
     box-shadow: var(--box-shadow);
-    text-align: center;
+    text-align: justify;
     padding: 2rem;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 5rem;
@@ -495,11 +495,13 @@ section.home::before{
 .book .row form h3{
     color: var(--black);
     padding-bottom: 1rem;
-    font-size: 6rem;
+    font-size: 3rem;
+    text-align: center;
 }
 .book .row form .box{
-    width: 58%;
-    margin: .7rem 0;
+    display: inline-block;
+    width: 49%;
+    margin: 1rem 0;
     border-radius: .5rem;
     border: var(--border);
     font-size: 1.6rem;
