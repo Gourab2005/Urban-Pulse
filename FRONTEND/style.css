@@ -91,7 +91,7 @@ html{
     margin-right: 2rem; */
     /* padding: 1rem; */
     /* margin: 0.5rem; */
-    padding: 0.1rem 1rem;
+    padding: 0.1rem 3rem;
     border: 2px solid #161A30;
     margin: 0rem 1rem;
 }
@@ -151,7 +151,7 @@ html{
         top: 115%; right: 2rem;
         border-radius: .5rem;
         box-shadow: var(--box-shadow);
-        width: 30rem;
+        width: 25rem;
         border: var(--border);
         background: #fff;
         transform: scale(0);
@@ -182,6 +182,11 @@ html{
     }
     .home .image img {
         width: 100% !important;
+    }
+    .header .navbar a {
+        font-size: 2rem;
+        display: block;
+        margin: 2.5rem;
     }
 }
 @media(max-width:450px){
@@ -220,6 +225,8 @@ html{
     .btnhome{
         width:13rem !important ;
     }
+    
+
 }
 
 /* designing home part */
@@ -471,9 +478,9 @@ section.home::before{
 }
 
 .faq .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap: 15rem;
+    display:block;
+    /* grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr)); */
+    /* gap: 15rem; */
     padding-top: 3rem;
 }
 
@@ -487,13 +494,13 @@ section.home::before{
 .faq .box-container .box .question{
     color: var(--blue);
     font-size: 2rem;
-    padding: 1rem 0;
+    /* padding: 0rem 0; */
     line-height: 1.8;
 }
 
 .faq .box-container .box .answer{
     padding: 1rem 0;
-    line-height: 1.8;
+    line-height: 1;
 }
 
 
@@ -659,9 +666,10 @@ section.home::before{
     background-color:#000000;
 }
 .faq .box-container .box{
-    display: inline-block;
-    border: 2px solid white;
-    padding: 4rem 4rem;
+    display: block;
+    border: 2px solid rgb(43, 46, 79);
+    padding: 2rem 2rem;
     border-radius:3rem;
     background-color:#B6BBC4;
+    margin-bottom: 2rem;
 }
