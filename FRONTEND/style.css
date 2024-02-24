@@ -180,6 +180,9 @@ html{
     .companybanner img {
         width: 20%;
     }
+    .home .image img {
+        width: 100% !important;
+    }
 }
 @media(max-width:450px){
     html{
@@ -256,8 +259,7 @@ section.home::before{
     flex:  1 1 45rem;
 }
 .home .image img{
-
-    width: 110%;
+    width: 150%;
 }
 .home .content{
     flex: 1 1 45rem;
