@@ -151,7 +151,7 @@ html{
         top: 115%; right: 2rem;
         border-radius: .5rem;
         box-shadow: var(--box-shadow);
-        width: 25rem;
+        width: 20rem;
         border: var(--border);
         background: #fff;
         transform: scale(0);
@@ -187,6 +187,9 @@ html{
         font-size: 2rem;
         display: block;
         margin: 2.5rem;
+    }
+    .centeritem{
+        text-align: center;
     }
 }
 @media(max-width:450px){
