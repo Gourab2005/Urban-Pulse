@@ -24,13 +24,16 @@ webiste link : https://gourab2005.github.io/Urban-Pulse/FRONTEND/index.html
 - **Resources and solutions:** Access knowledge on sustainable practices and relevant initiatives.
 
 - **Mobile-friendly:** Easily report and track issues on your phone.
-
+  
 - **Accessible:** Designed for a diverse audience.
 
 - **Educational content:** Learn about sustainable city practices and clean energy solutions.
   
 - **Partnerships:** Collaborate with local authorities and businesses for effective action.
-  <br>
+  
+- **Future Plans / Website Blue-Print** <br> [Solution-Challenge-Website-Blueprint.pdf](https://github.com/Gourab2005/Urban-Pulse/files/14397445/Solution-Challenge-Website-Blueprint.pdf)
+<br>
+
  <br> ![Screenshot 2024-02-25 215009](https://github.com/Gourab2005/Urban-Pulse/assets/144489254/70aa7026-3169-4296-8c15-1e931821e778)
  <br>![Screenshot 2024-02-25 214942](https://github.com/Gourab2005/Urban-Pulse/assets/144489254/12b81145-ffed-4a74-a682-93f94a2ee073)
  <br>![Screenshot 2024-02-25 214037](https://github.com/Gourab2005/Urban-Pulse/assets/144489254/065bffaa-3cbe-43a9-b34f-7fb125cfa5ff)
