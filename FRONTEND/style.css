@@ -685,3 +685,9 @@ section.home::before{
     background-color:#B6BBC4;
     margin-bottom: 2rem;
 }
+.btn a{
+    color: #000000;
+}
+.btn a:hover{
+    color: white;
+}
