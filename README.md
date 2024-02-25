@@ -31,5 +31,8 @@ webiste link : https://gourab2005.github.io/Urban-Pulse/FRONTEND/index.html
   
 - **Partnerships:** Collaborate with local authorities and businesses for effective action.
   
-- **Future Plans / Website Blue-Print** 
+- **Future Plans / Website Blue-Print**
+
+- **Techstack and Tools used and will be used in future** :( Html , CSS , Javascript , Bootstrap , GSAP , React , Node JS , Express JS , Mongo DB , Google Analytics.)
+<br>
 ![Screenshot 2024-02-26 011951](https://github.com/Gourab2005/Urban-Pulse/assets/144489254/76277bd0-946d-445f-b778-a9bb2c007966)
