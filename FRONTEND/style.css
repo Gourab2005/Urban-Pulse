@@ -138,8 +138,7 @@ html{
     }
     .section{
         padding: 2rem;
-    }
-    
+    }  
 }
 @media(max-width:768px){
     #menu-btn{
@@ -191,6 +190,9 @@ html{
     .centeritem{
         text-align: center;
     }
+    .footer .box-container{
+        gap: 1rem !important;
+    }
 }
 @media(max-width:450px){
     html{
@@ -228,8 +230,15 @@ html{
     .btnhome{
         width:13rem !important ;
     }
-    
-
+    .footer .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(22rem,1fr));
+        padding-left: 2rem !important;
+        gap: 2rem;
+        background-color: #000000;
+        /* text-align: center; */
+    }
+        
 }
 
 /* designing home part */
